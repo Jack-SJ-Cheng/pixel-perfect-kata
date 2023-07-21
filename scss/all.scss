@@ -1,0 +1,36 @@
+@import "reset";
+
+.container{
+  width: 640px;
+  margin: 0 auto;
+}
+.banner{
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  .content{
+    margin-right: 20px;
+    .section01{
+      margin-bottom: 24px;
+    }
+    .section{
+      display: flex;
+      align-items: center;
+      img{
+        margin-right: 20px;
+      }
+    }
+  }
+}
+.footer{
+  text-align: center;
+  padding: 48px 0;
+}
+.title{
+  font-size: 20px;
+  line-height: 1.2;
+}
+.d1{
+  font-size: 16px;
+  line-height: 1.5;
+}
